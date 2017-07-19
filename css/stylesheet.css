@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bannerImageOne{
+  background-image: url("../img/sheets.jpg");
+  height: 100%;
+}
+.bannerImageTwo{
+  background-image: url("../img/micro.jpg");
+  height: 80%;
+}
+.bannerImageThree{
+  background-image: url("../img/red.jpg");
+  height: 90%;
+}
