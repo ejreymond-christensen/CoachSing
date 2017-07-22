@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'helvetica';
+  font-family: 'Play', sans-serif;
 }
 
 .parallax {
@@ -27,6 +27,41 @@ body, html {
   height: 90%;
   opacity: .75;
 }
-h3{
+h2{
   text-align: center;
+  font-family: 'Lobster', cursive;
+}
+p{
+  margin: 16px;
+}
+.companyName{
+  font-size: 75px;
+  font-family: 'Lobster', cursive;
+  color: 	#f5f5f5;
+  text-align: center;
+  margin-bottom: 0;
+
+}
+#companyMoto{
+  font-size: 16px;
+  font-family: 'Play', sans-serif;
+  color: #f5f5f5;
+  text-align: center;
+  margin-top: 0;
+
+}
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+}
+#flex-1{
+  width:33%;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+}
+#flex-2{
+  width:67%;
 }
