@@ -30,7 +30,7 @@ body, html {
 h2{
   text-align: center;
   font-family: 'Lobster', cursive;
-  font-size: 26px;
+  font-size: 40px;
 }
 p{
   margin: 16px;
@@ -66,11 +66,11 @@ p{
 #title-flex-2{
   width: 67%;
 }
-#about-flex-photo{
+#teacher-flex-photo{
   width: auto;
   margin: 15px;
 }
-#about-flex-text{
+#teacher-flex-text{
   width: 75%;
 }
 .testName{
@@ -107,4 +107,15 @@ footer{
 .button{
   text-align: center;
   margin: 20px;
+}
+.about-flex-question{
+  width:25%;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.about-line{
+  font-size: 25px;
 }
